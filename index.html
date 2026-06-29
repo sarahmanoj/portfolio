@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sarah Manoj | Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #0f0f0f; color: #fff; }
+
+    
+    nav { display: flex; justify-content: space-between; align-items: center;
+      padding: 20px 40px; background: #1a1a1a; position: sticky; top: 0; }
+    nav h1 { color: #a78bfa; font-size: 1.4rem; }
+    nav a { color: #ccc; text-decoration: none; margin-left: 20px; font-size: 0.95rem; }
+    nav a:hover { color: #a78bfa; }
+
+    
+    .hero { text-align: center; padding: 100px 20px 60px; }
+    .hero h2 { font-size: 2.8rem; color: #a78bfa; }
+    .hero p { font-size: 1.1rem; color: #aaa; margin-top: 15px; max-width: 500px; margin-inline: auto; }
+    .hero a { display: inline-block; margin-top: 30px; padding: 12px 30px;
+      background: #a78bfa; color: #000; border-radius: 25px; font-weight: bold;
+      text-decoration: none; }
+    .hero a:hover { background: #7c3aed; color: #fff; }
+
+  
+    section { padding: 60px 40px; max-width: 900px; margin: auto; }
+    section h3 { font-size: 1.8rem; color: #a78bfa; margin-bottom: 30px;
+      border-bottom: 2px solid #a78bfa; padding-bottom: 10px; }
+
+    
+    .skills { display: flex; flex-wrap: wrap; gap: 12px; }
+    .skill { background: #1e1e2e; padding: 10px 20px; border-radius: 20px;
+      color: #a78bfa; border: 1px solid #a78bfa; font-size: 0.95rem; }
+
+    
+    .project-card { background: #1a1a2e; border-radius: 12px; padding: 25px;
+      margin-bottom: 20px; border: 1px solid #2d2d4e; }
+    .project-card h4 { color: #a78bfa; font-size: 1.2rem; margin-bottom: 10px; }
+    .project-card p { color: #aaa; font-size: 0.95rem; line-height: 1.6; }
+    .project-card a { display: inline-block; margin-top: 15px; color: #a78bfa;
+      text-decoration: none; font-weight: bold; }
+
+    
+    .contact-links { display: flex; flex-direction: column; gap: 12px; }
+    .contact-links a { color: #a78bfa; text-decoration: none; font-size: 1rem; }
+    .contact-links a:hover { text-decoration: underline; }
+
+    footer { text-align: center; padding: 30px; color: #555; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1>Sarah Manoj</h1>
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <h2>Hi, I'm Sarah Manoj 👋</h2>
+    <p>Final Year Computer Science Student at St. Joseph's University, Bangalore. Passionate about building things with code.</p>
+    <a href="#projects">View My Work</a>
+  </div>
+
+  <section id="about">
+    <h3>About Me</h3>
+    <p style="color:#aaa; line-height:1.8;">I'm a final year B.Sc Computer Science student who loves learning new technologies and building projects. I'm currently looking for internship opportunities where I can grow and contribute.</p>
+  </section>
+
+  <section id="skills">
+    <h3>Skills</h3>
+    <div class="skills">
+      <span class="skill">Python</span>
+      <span class="skill">HTML5</span>
+      <span class="skill">CSS</span>
+      <span class="skill">C</span>
+      <span class="skill">Java</span>
+      <span class="skill">Git & GitHub</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h3>Projects</h3>
+    <div class="project-card">
+      <h4>Student Grade Calculator</h4>
+      <p>A Python program that takes a student's name and marks as input and returns their grade from A+ to F.</p>
+      <a href="https://github.com/sarahmanoj/student-Grade-Calculator" target="_blank">View on GitHub →</a>
+    </div>
+    <div class="project-card">
+      <h4>Personal Portfolio Website</h4>
+      <p>A responsive portfolio website built with HTML and CSS to showcase my skills and projects.</p>
+      <a href="https://github.com/sarahmanoj/portfolio" target="_blank">View on GitHub →</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3>Contact Me</h3>
+    <div class="contact-links">
+      <a href="https://github.com/sarahmanoj" target="_blank">🐙 github.com/sarahmanoj</a>
+      <a href="mailto:sarahmanoj2006@gmail.com">📧 sarahmanoj2006@gmail.com</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by Sarah Manoj © 2026</p>
+  </footer>
+
+</body>
+</html>
